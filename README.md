@@ -15,6 +15,9 @@ Single cpp file for deploying yolov8/yolo11 algorithm to sg200x platform. Tested
 - Support YoloV8 & Yolo11
 - A more advance version, which supports RTSP streaming and fisheye len distortion is available, but its source won't be open to public.
 
+## TODO
+- Some other versions, using e.g. UVC camera or H.264/MJPEG video file as input will be uploaded soon.
+
 ## Performance
 The input size of model is 640x640. Sensor size is 1920x1080. Model is quantized using cvitek's TPU toolchain.
 | Crop Size | FPS |
